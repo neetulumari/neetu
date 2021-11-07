@@ -1,8 +1,12 @@
-# Create a dictionary and take input from the user and return the meaning of the
-# word from the dictionary
+# list1 = [["babana",2],["mango",5],["apple",8],["pineapple",9]]
+# dict1 = dict(list1)
+# print(dict1)
+# for item in list1:
+#     print(item)
+i = 0
+while(True):
+    print(i + 1 , end=" ")
+    if(i == 44):
+        break
+    i = i + 1
 
-Dict = {"ignore":"refuse to take notice of or acknowledge", "abandon":"cease to support or look after",
-        "exaggerate":"enlarged or altered beyond normal proportions", "prejudice":"preconceived opinion that is not based on reason or actual experience", "programming":"the process of writing computer programs"}
-print("Enter the Word")
-Data1 = input()
-print(Data1, "means", Dict[Data1])
